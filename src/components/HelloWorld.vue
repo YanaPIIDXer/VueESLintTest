@@ -42,6 +42,9 @@ export default {
     
     // OUTPUT: 意図的に残している
     console.log("mounted")
+
+    // OUTPUT: 
+    console.log("mounted")
   },
 }
 </script>
