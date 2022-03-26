@@ -35,7 +35,14 @@ export default {
   name: 'HelloWorld',
   props: {
     msg: String
-  }
+  },
+  mounted: function () {
+    // TODO: 後で消す
+    console.log("mounted")
+    
+    // OUTPUT: 意図的に残している
+    console.log("mounted")
+  },
 }
 </script>
 

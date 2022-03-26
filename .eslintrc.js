@@ -10,6 +10,7 @@ module.exports = {
         'vue'
     ],
     rules: {
-        'vue/html-indent': ['error', 2] // 2 spaces for html indent
+        'vue/html-indent': ['error', 2],
+        'output_console': 2
     }
 }
